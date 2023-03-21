@@ -1,0 +1,20 @@
+{
+    "name": "hector/php_observer_001",
+    "description": "Test project for Observer pattern",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Giovanni Rodríguez",
+            "email": "giovanni.rodriguez@s2next.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Videogame\\": "module/Videogame/src"
+        }
+    }
+}
